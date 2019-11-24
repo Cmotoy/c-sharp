@@ -31,7 +31,13 @@ namespace Variables
             Console.Write("Type your Last name");
             myLastName = Console.ReadLine();
 
-            Console.WriteLine("Hello," + x + " " + myLastName);
+
+            Console.Write("How old are you?");
+            string age = Console.ReadLine();
+
+            Console.WriteLine("Hello," + x + " " + myLastName + "\n" + " You are " + " " + age + "years old" );
+
+    
                 Console.ReadLine();
         }
     }
